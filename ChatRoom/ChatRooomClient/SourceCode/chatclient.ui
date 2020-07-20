@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ChatClient</class>
+ <widget class="QWidget" name="ChatClient">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>704</width>
+    <height>638</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ChatClient</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="2" column="0">
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>昵称</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>服务器端口</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QLineEdit" name="lineEditNick"/>
+   </item>
+   <item row="0" column="2">
+    <widget class="QPushButton" name="ButtonConnect">
+     <property name="text">
+      <string>连接服务器</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="2">
+    <widget class="QPushButton" name="ButtonSend">
+     <property name="text">
+      <string>发送信息</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="2">
+    <widget class="QPushButton" name="ButtonNickname">
+     <property name="text">
+      <string>确认昵称</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QLineEdit" name="lineEditPort"/>
+   </item>
+   <item row="1" column="2">
+    <widget class="QPushButton" name="ButtonDisconnect">
+     <property name="text">
+      <string>断开服务器</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>服务器IP</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="2" rowspan="2">
+    <widget class="QTextEdit" name="textEditInput"/>
+   </item>
+   <item row="0" column="1">
+    <widget class="QLineEdit" name="lineEditIP"/>
+   </item>
+   <item row="3" column="0" rowspan="3" colspan="2">
+    <widget class="QTextEdit" name="textEditOutput">
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
